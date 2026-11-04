@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Max Nutz <max.nutz@boku.ac.at>"]
+channels = ["conda-forge"]
+name = "cross-sec-evals"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pypsa = ">=1.4.0,<2"
+pandas = ">=3.1.0,<4"
+marimo = ">=0.25.1,<0.26"
